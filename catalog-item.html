@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <title>Materia Label</title>
+    <link rel='stylesheet' href='css/normalize.css' type='text/css'>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <script src="js/modernizr.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="clearfix">
+            <nav>
+                <ul>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="catalog.html" class="active">Releases</a></li>
+                    <li><a href="distro.html">Distro</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="bands.html">Bands</a></li>
+                </ul>
+            </nav>
+            <div class="user-block clearfix">
+                <div class="cart">Cart:
+                    <span>0</span>
+                </div>
+                <form action="" class="clesrfix">
+                    <input type="search" placeholder="Search..." class="search-input">
+                    <input type="submit" value=" " class="search-button">
+                </form>
+            </div>
+        </header>
+        <main>
+
+            <div class="catalog clearfix">
+                <div class="slider clearfix">
+                    <a rel="gallery" class="fancybox" href="img/releases-cover.jpg"> <img src="img/releases-cover.jpg" alt="cover photo" class="big-img"> </a>
+                    <a rel="gallery" class="fancybox" href="img/first-small.jpg"><img src="img/first-small.jpg" alt="small release photo" class="small-img"></a>
+                    <a rel="gallery" class="fancybox" href="img/second-small.jpg"> <img src="img/second-small.jpg" alt="small release photo" class="small-img"></a>
+                    <a rel="gallery" class="fancybox" href="img/third-small.jpg"><img src="img/third-small.jpg" alt="small release photo" class="small-img"></a>
+                </div>
+                <div class="item-info">
+                    <h1>Caerulea</h1>
+                    <h2>The Mess of Love </h2>
+                    <p class="price">€6</p>
+                    <a href="#" class="button">Add to cart</a>
+                    <div class="soundcloud">
+                        <iframe width="100%" height="143" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/256212215&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+                    </div>
+                    <p class="info-text">
+                        New album of uralian synthpop duo. Caerulea - first russian band who makes true "raw" synth music. But "The Mess of Love" is more "crystalline" work. Released by Materia Productions & RB Cartel on ultra limited tapes. We use special cassettes design for this release.
+                    </p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="mail">materielabel@gmail.com</div>
+            <div class="social-block">
+                <a href="" class="social-button vk"></a>
+                <a href="" class="social-button fb"></a>
+                <a href="" class="social-button soundcloud"></a>
+                <a href="" class="social-button youtube"></a>
+                <a href="" class="social-button insta"></a>
+                <a href="" class="social-button twitter"></a>
+            </div>
+            <div class="subscribe">
+                <form action="">
+                    <input type="text" placeholder="Your e-mail" class="email">
+                    <input type="submit" value="Subscribe" class="button">
+                </form>
+            </div>
+        </footer>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script type="text/javascript">
+        $(".fancybox").fancybox({
+            helpers: {
+                overlay: {
+                    css: {
+                        'background': 'rgba(0, 0, 0, 0.6)'
+                    }
+                }
+            }
+        });
+
+    </script>
+</body>
+
+</html>
